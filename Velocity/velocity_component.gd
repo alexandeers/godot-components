@@ -8,12 +8,12 @@ class_name VelocityComponent extends Node
 @export var acceleration_coefficient: float = 2
 
 # VARIABLES
-var velocity : Vector2
-var velocity_override : Vector2
-var speed_multiplier : float = 1
-var calculated_max_speed : float :
+var velocity: Vector2
+var velocity_override: Vector2
+var speed_multiplier: float = 1
+var calculated_max_speed: float: 
 	get: return max_speed * speed_multiplier
-	
+
 # FUNCTIONS
 func override_velocity(override):
 	velocity_override = override
