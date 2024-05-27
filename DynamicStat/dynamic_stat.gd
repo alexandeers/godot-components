@@ -1,4 +1,4 @@
-@tool @icon("res://assets/icons/icon_gauge.svg")
+@tool @icon("res://components/_icons/icon_gauge.svg")
 class_name DynamicStat extends Node
 
 # CONFIGURATION

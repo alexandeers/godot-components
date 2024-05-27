@@ -1,5 +1,5 @@
 @tool 
-@icon("res://assets/icons/icon_velocity.svg")
+@icon("res://components/_icons/icon_velocity.svg")
 class_name VelocityComponent extends Node
 
 # CONFIGURATION
